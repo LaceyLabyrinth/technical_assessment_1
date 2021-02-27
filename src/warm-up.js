@@ -13,18 +13,33 @@
 // var type = "Dessert";
 // var inStock = 10
 
+    
+var food = "Steak";
+var type = "Protein";
+var inStock = 14
+
 
 
 // Reassign (not initialize) your "inStock" variable from above. We got a new shipment! Use a built in math operator to make 
 // the inStock count double what it currently is.
+inStock = inStock*2 
 
 
 // Reassign (not initialize) your "inStock" variable from above. You got hungry and needed a snack! 
 // Use a built in math operator to decrement the inStock count by 1.
+inStock = inStock - 1;
+
 
 
 // Initialize a new variable "isFavorite", and assign it to a boolean value indicating
 // if the food you chose is your favorite food or not
+var isFavorite = true; 
+
+
+
+
+
+
 
 
 
@@ -33,8 +48,11 @@
 // variable should be true, otherwise it should be false. You MUST use a
 // comparison operator.
 
+var shouldOrderMore = true
+if (instock < 20) {
+    return true
 
-
+} else return false
 //------------------------- Conditionals -------------------------//
 
 
@@ -43,12 +61,26 @@
 // the statement 'I'm going to eat some [food]!', otherwise, log the statement 
 // 'We need to get some more [food].'
 
+if (inStock >= 1) { 
+console.log ("I'm going to eat some" + food!)   
+}
+ inStock >= 1; ("I'm going to eat some Steak!"); {
+} else {
+console.log ("We need to get some more" + food.);
+ 
+}
 
 
 // Express the following in code: If the variable "isFavorite" is true,
 // log the statement 'My favorite food is [food]!'. Otherwise, log the
 // statement 'I recently ate [food]'. In either case, the value stored in
 // the "food" variable should be included in the logged statement.
+if var "isFavorite = true; 
+console.log ("My favoite food is" + Steak!); {
+} else { 
+console.log ("I recently ate" + Steak.);
+
+}
 
 
 
@@ -57,6 +89,12 @@
 
 // Create a new variable "vegetables" and assign it to an Array of 5 different
 // vegetables, represented by their names as Strings.
+
+
+//function vegetables {
+//var Vegetables = ("Cucumber, Squash, Tomato, Carrot, Spinach")
+} 
+
 
 
 // Write the code to access the 3rd element of the Array, using bracket
